@@ -1,0 +1,41 @@
+/*HEROES*/
+
+#heroes{
+    color: red;
+}
+
+
+#batman{
+    background-color:red;
+
+}
+
+div.conteiner-cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin: 0auto; 
+}
+
+div.conteiner {
+    margin: 150px 32px;
+}
+
+div.card {
+    width: 300px;
+  height: 530px;
+  gap: 30px;
+  background-color: #F3F3F3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-shadow: -1px 7px 11px 0px rgba(176,174,176,1);
+  -moz-box-shadow: -1px 7px 11px 0px rgba(176,174,176,1);
+  box-shadow: -1px 7px 11px 0px rgba(176,174,176,1);
+}
+
+#cardsx3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
